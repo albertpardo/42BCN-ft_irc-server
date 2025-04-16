@@ -1,21 +1,22 @@
 # irc-server
+
+## Authors
+
+- [albertpardo](https://github.com/albertpardo)
+- [Hazeliny](https://github.com/Hazeliny)
+- [xilen0x](https://github.com/xilen0x)
+
 ## IRC Internet Relay Chat
 
 Internet Relay Chat or IRC is a text-based communication protocol on the Internet.
-It offers real-time messaging that can be either public or private. Users can exchange
-direct messages and join group channels.
+It offers real-time messaging that can be either public or private. Users can exchange direct messages and join group channels.
 
-IRC clients connect to IRC servers in order to join channels. IRC servers are connected
-together to form a network.
+IRC clients connect to IRC servers in order to join channels. IRC servers are connected together to form a network.
 
 ## External functs.
-Everything in C++ 98.
-socket, close, setsockopt, getsockname,
-getprotobyname, gethostbyname, getaddrinfo,
-freeaddrinfo, bind, connect, listen, accept, htons,
-htonl, ntohs, ntohl, inet_addr, inet_ntoa, send,
-recv, signal, sigaction, lseek, fstat, fcntl, poll
-(or equivalent)
+Everything in C++ 98. 
+
+socket, close, setsockopt, getsockname,getprotobyname, gethostbyname, getaddrinfo, freeaddrinfo, bind, connect, listen, accept, htons, htonl, ntohs, ntohl, inet_addr, inet_ntoa, send, recv, signal, sigaction, lseek, fstat, fcntl, poll (or equivalent)
 
 You have to develop an IRC server in C++ 98.
 
